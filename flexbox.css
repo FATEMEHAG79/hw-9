@@ -4,4 +4,67 @@
     align-items: center;
     justify-content: center;
     display: flex;
- 
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,100px);
+    gap: 150px;
+}
+.PRESS-BLUE{
+    background-color: rgb(108, 81, 230);
+    color: white;
+   
+}
+.PRESS-GREEN{
+    background-color: rgb(83, 165, 83);
+    color: white;
+}
+.PRESS-ORANGE{
+    background-color: orange;
+    color: white;
+}
+.PRESS-red{
+    background-color: red;
+    color: white;
+}
+
+.SENDEN-BLUE{
+    background-color: rgb(108, 81, 230);
+    color: white;
+    border-radius: 40px;
+}
+
+.SENDEN-GREEN{
+    background-color: rgb(83, 165, 83);
+    border-radius: 40px;
+    color: white;
+}
+.SENDEN-ORANGE{
+    border-radius: 40px;
+    background-color: orange;
+    color: white;
+}
+.SENDEN-RED{
+    border-radius: 40px;
+    background-color: red;
+    color: white;
+}
+.SENDEN-WHITE-BLUE{
+    border: 4PX solid  rgb(108, 81, 230);
+    color: rgb(108, 81, 230);;
+}
+.SENDEN-WHITE-GREEN{
+    border: 4PX solid  rgb(83, 165, 83);
+    color: rgb(83, 165, 83);
+}
+.SENDEN-WHITE-ORANGE{
+    border: 4PX solid orange;
+    color: orange;
+}
+.SENDEN-WHITE-RED{
+    border: 4PX solid RED;
+    color: red;
+}
