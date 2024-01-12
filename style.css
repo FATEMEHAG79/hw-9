@@ -1,0 +1,19 @@
+body{
+    display: flex;
+  justify-content: center;
+  }
+
+.parent{
+    height: 500px;
+  width: 5000px;
+  background: rgb(230, 191, 173);
+  }
+  
+.child {
+      width: 100px;
+      height: 100px;
+      background: rgb(108, 136, 228);
+      border-radius: 50%;
+
+   }
+
